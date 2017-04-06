@@ -4,14 +4,14 @@ chcp 65001
 REM Created by github.com/olback
 
 REM ----- Groups -----
-REM Admin (Swedish OS): administratörer
+REM Admin (Swedish OS): administratÃ¶rer
 REM Admin (English OS): administrators
 
 
 REM ----- Set the user, domain and localgroup here -----
 SET user=
 SET domain=
-SET group=administratörer
+SET group=
 
 
 
