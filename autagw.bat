@@ -20,5 +20,3 @@ REM ----- Do not edit below this line -----
 net localgroup %group% %domain%\%user% /add
 
 echo %domain%\%user% Is now added to the group %group%
-
-timeout -1
