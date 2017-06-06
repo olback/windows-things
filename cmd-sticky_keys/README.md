@@ -4,10 +4,10 @@
 * [Repair Method](https://www.howtogeek.com/96630/how-to-reset-your-forgotten-windows-password-the-easy-way/)
 * [Crash Method (Link/Tutorial comming soon)]()
 * Plug the disk in via a SATA-USB adaptor. This requires you to change some permissions on the disk.
-* Boot from a Distro of your choise. Rename sethc.exe to sethc.exe and copy cmd.exe to sethc.exe.
+* Boot from a Distro of your choise. Rename sethc.exe to sethc1.exe and copy cmd.exe to sethc.exe.
 
 
 ## Windows 8/8.1/10
 * [Live CD/DVD/USB](https://www.top-password.com/blog/reset-windows-10-password-with-sticky-keys/)
 * Plug the disk in via a SATA-USB adaptor. This requires you to change some permissions on the disk.
-* Boot from a Distro of your choise. Rename sethc.exe to sethc.exe and copy cmd.exe to sethc.exe.
+* Boot from a Distro of your choise. Rename sethc.exe to sethc1.exe and copy cmd.exe to sethc.exe.
