@@ -3,9 +3,11 @@
 ::
 :: (c) Elias Bachaalany <lallousz-x86@yahoo.com>
 :: Batchography: The Art of Batch Files Programming
-::  
+::
 :: Reveal all saved WiFi passwords Batch file script v1.0 (c) lallouslab.net
 :: Inspired by the book "Batchography: The Art of Batch Files Programming"
+::
+:: Modified version of https://github.com/PassingTheKnowledge/Batchography/blob/master/WifiPasswordReveal.bat
 ::
 :: Dump WiFi SSIDs and Passwords to wifi_networks.txt in AppData
 ::
