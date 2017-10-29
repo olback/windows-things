@@ -4,19 +4,19 @@
 #
 
 # Clear the Powershell terminal
-clear
+Clear-Host
 
 # Print some info about the environment
-echo "`n"
-echo "  Powershell v$($PSVersionTable.PSVersion.ToString())`n"
+Write-Output "`n"
+Write-Output "  Powershell v$($PSVersionTable.PSVersion.ToString())`n"
 
-echo "  Hostname : $env:ComputerName"
-echo "  Username : $env:UserName"
-echo "  Local IP : $(Test-Connection -ComputerName (hostname) -Count 1  | Select -ExpandProperty IPV4Address)"
-echo "  PublicIP : $(curl https://whois.olback.net/raw.php?myip)"
-echo "  Location : $pwd"
-echo "  Is Admin : $(([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))`n`n"
+Write-Output "  Hostname : $env:ComputerName"
+Write-Output "  Username : $env:UserName"
+Write-Output "  Local IP : $(Test-Connection -ComputerName (hostname) -Count 1  | Select -ExpandProperty IPV4Address)"
+#Write-Output "  PublicIP : $(curl https://whois.olback.net/raw.php?myip)"
+Write-Output "  Location : $pwd"
+Write-Output "  Is Admin : $(([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))`n`n"
 
 # Set aliases
-sal c clear
-sal p powershell
+Set-Alias c clear
+Set-Alias p powershell
